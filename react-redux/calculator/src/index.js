@@ -1,9 +1,15 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
+import { render } from 'react-dom';
+import { createStore } from 'redux';
+import { Provider } from 'react-redux';
 import CalculatorContainer from './containers/CalculatorContainer';
-//import App from './App';
-import registerServiceWorker from './registerServiceWorker';
+import reducer from './reducers';
 
-ReactDOM.render(<CalculatorContainer />, document.getElementById('root'));
-registerServiceWorker();
+const store = createStore(reducer);
+
+render(
+  <Provider store={store}>
+    <CalculatorContainer />
+  </Provider>,
+  document.getElementById('root')
+);
