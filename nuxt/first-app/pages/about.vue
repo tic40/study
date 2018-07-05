@@ -1,7 +1,7 @@
 <template>
   <section class="container">
-    <global-nav/>
-    <h1>ROOT</h1>
+    <global-nav />
+    <h1>ABOUT</h1>
   </section>
 </template>
 

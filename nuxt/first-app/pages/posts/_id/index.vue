@@ -1,7 +1,7 @@
 <template>
   <section class="container">
     <global-nav/>
-    <h1>ROOT</h1>
+    <h1>dynamic posts</h1>
   </section>
 </template>
 
