@@ -1,0 +1,21 @@
+{
+  "name": "nuxt-swiper",
+  "version": "1.0.0",
+  "description": "My superb Nuxt.js project",
+  "author": "tic40",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "nuxt": "^2.0.0",
+    "swiper": "^6.3.2",
+    "vue-awesome-swiper": "^4.1.1"
+  },
+  "devDependencies": {
+    "@nuxt/typescript-build": "^0.6.0"
+  }
+}
